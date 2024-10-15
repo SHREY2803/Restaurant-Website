@@ -6,14 +6,14 @@ import img3 from "../../assets/biryani4.png";
 const ServicesData = [
   {
     id: 1,
-    img: img1,
+    img: img2,
     name: "Biryani",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
   },
   {
     id: 2,
-    img: img2,
+    img: img1,
     name: "Chiken kari",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
