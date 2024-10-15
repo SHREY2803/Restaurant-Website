@@ -6,7 +6,7 @@ import img3 from "../../assets/biryani4.png";
 const ServicesData = [
   {
     id: 1,
-    img: img2,
+    img: img1,
     name: "Biryani",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
@@ -20,7 +20,7 @@ const ServicesData = [
   },
   {
     id: 3,
-    img: img2,
+    img: img3,
     name: "Cold Cofee",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
@@ -52,8 +52,8 @@ function Services() {
                     <img
                       src={img}
                       alt=""
-                      className="max-w-[200px] block mx-auto transform -translate-y-14
-                  group-hover:scale-105 group-hover:rotate-6 duration-300"
+                      className="max-w-[150px] block mx-auto transform -translate-y-14
+                  group-hover:scale-105 group-hover:rotate-6 duration-300 py-4"
                     />
                   </div>
                   <div className="p-4 text-center">
