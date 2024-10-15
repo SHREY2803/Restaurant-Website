@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero.jsx";
 import Services from "./components/Services/Services.jsx";
 import Banner from "./components/Banner/Banner.jsx";
+import AppStore from "./components/AppStore/AppStore.jsx";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Hero />
       <Services />
       <Banner />
+      <AppStore />
     </div>
   )
 }
