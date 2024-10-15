@@ -6,6 +6,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero.jsx";
 import Services from "./components/Services/Services.jsx";
+import Banner from "./components/Banner/Banner.jsx";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <Banner />
     </div>
   )
 }
