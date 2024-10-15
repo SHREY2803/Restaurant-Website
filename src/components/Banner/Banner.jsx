@@ -48,7 +48,7 @@ const Banner = () => {
                   distinctio? Fugit repudiandae numquam hic quo recusandae.
                   Excepturi totam ad nam velit quasi quidem aspernatur.
                 </p>
-                <div className="flex gap-6">
+                <div className="flex gap-6 justify-center items-center">
                   <div>
                     <GrSecure className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400 hover:scale-105 duration-200" />
                   </div>
@@ -59,7 +59,7 @@ const Banner = () => {
                     <GiFoodTruck className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 dark:bg-green-400 hover:scale-105 duration-200" />
                   </div>
                 </div>
-                <div>
+                <div className="flex justify-center items-center">
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
                   Order Now
                 </button>
