@@ -64,8 +64,9 @@ function Testimonial() {
                   <div className="my-6">
                     <div
                       key={data.id}
-                      className="flex flex-col justify-center items-center gap-4 text-center   shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
+                      className="flex flex-col justify-center items-center gap-4 text-center shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative mt-[-1.5rem]"
                     >
+                      {" "}
                       <img
                         className="rounded-full block mx-auto"
                         src={data.img}
