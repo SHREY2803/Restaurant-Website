@@ -8,6 +8,8 @@ import Hero from "./components/Hero/Hero.jsx";
 import Services from "./components/Services/Services.jsx";
 import Banner from "./components/Banner/Banner.jsx";
 import AppStore from "./components/AppStore/AppStore.jsx";
+import Testimonial from "./components/Testimonial/Testimonial.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
       <Services />
       <Banner />
       <AppStore />
+      <Testimonial />
+
+      {/* <Footer /> */}
     </div>
   )
 }
