@@ -94,8 +94,6 @@ const Footer = () => {
         </div>
         <div>
           <div
-          data-aos="zoom-out"
-          data-aos-duration="500"
           className="text-center py-10 border-t-2 border-gray-300/50 text-xs sm:text-lg">
           &copy;Copyright 2024 All Rights Reserved || Shrey Kulkarni
           </div>
