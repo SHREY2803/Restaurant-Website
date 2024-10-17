@@ -1,30 +1,29 @@
+
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
-let testimonialData = [
+const testimonialData = [
   {
     id: 1,
-    name: "Anurag Yadav",
-    text: `I love this app! It’s user-friendly, has secure payments, and my food always arrives hot and delicious in just 30 minutes!`,
+    name: "Samuel",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/101/101",
   },
   {
-    id: 2,
-    name: "Rishi",
-    text: "This app is a game changer! Quick delivery, tasty food, and the secure payment process gives me peace of mind. Highly recommend!",
+    id: 1,
+    name: "John Doe",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/102/102",
   },
   {
-    id: 3,
-    name: "Prakhar",
-    text: "I’m impressed! The app is easy to navigate, food arrives quickly, and everything tastes amazing. Definitely my go-to for meals!",
+    id: 1,
+    name: "Smith",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },
 ];
 
-function Testimonial() {
+const Testimonial = () => {
   var settings = {
     dots: true,
     arrows: false,
@@ -33,12 +32,11 @@ function Testimonial() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     pauseOnHover: true,
     pauseOnFocus: true,
   };
-
   return (
     <>
       <div data-aos="fade-up" data-aos-duration="300" className="py-10">
@@ -48,24 +46,24 @@ function Testimonial() {
               What our customers say
             </p>
             <h1 className="text-3xl font-bold">Testimonial</h1>
-            <p className="text-s text-gray-400 mt-4">
-            See what our satisfied customers are saying about us!
+            <p className="text-xs text-gray-400">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Perspiciatis delectus architecto error nesciunt,
             </p>
           </div>
           <div
             data-aos="zoom-in"
-            data-aos-duration="600"
+            data-aos-duration="300"
             className="grid grid-cols-1 max-w-[600px] mx-auto gap-6"
           >
-            <Slider className="mt-[-30px]" {...settings}>
+            <Slider {...settings}>
               {testimonialData.map((data) => {
                 return (
                   <div className="my-6">
                     <div
                       key={data.id}
-                      className="flex flex-col justify-center items-center gap-4 text-center shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative mt-[-1.5rem]"
+                      className="flex flex-col justify-center items-center gap-4 text-center   shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
                     >
-                      {" "}
                       <img
                         className="rounded-full block mx-auto"
                         src={data.img}
@@ -86,6 +84,6 @@ function Testimonial() {
       </div>
     </>
   );
-}
+};
 
 export default Testimonial;

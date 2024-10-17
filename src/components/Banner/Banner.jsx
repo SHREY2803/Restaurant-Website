@@ -29,35 +29,40 @@ const Banner = () => {
                 <img
                   src={BiryaniImg}
                   alt="biryani img"
-                  className="max-w-[430px] w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] hover:scale-105 duration-500"
+                  className="max-w-[430px] w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]"
                 />
               </div>
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1 className="text-3xl sm:text-4xl font-bold">
-                Chef's Signature Delight
+                  Lorem, ipsum dolor.
                 </h1>
-                <p className="text-md text-gray-400 tracking-wide leading-5">
-                Indulge in our Special Royal Biryani, a fragrant blend of spiced rice and tender meat, perfectly complemented by a side of creamy, delicious curd for a truly unforgettable experience.
+                <p className="text-sm text-gray-500 tracking-wide leading-5">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Eaque reiciendis inventore iste ratione ex alias quis magni at
+                  optio
                   <br />
                   <br />
-                  Our app is the most popular in the food market, offering secure payment options and ensuring deliciously cooked meals delivered to your doorstep in just 30 minutes. Order now!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae ab sed, exercitationem minima aliquid eligendi
+                  distinctio? Fugit repudiandae numquam hic quo recusandae.
+                  Excepturi totam ad nam velit quasi quidem aspernatur.
                 </p>
-                <div className="flex gap-6 justify-center items-center">
+                <div className="flex gap-6">
                   <div>
-                    <GrSecure className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400 hover:scale-105 duration-200" />
+                    <GrSecure className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400" />
                   </div>
                   <div>
-                    <IoFastFood className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-orange-100 dark:bg-orange-400 hover:scale-105 duration-200" />
+                    <IoFastFood className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-orange-100 dark:bg-orange-400" />
                   </div>
                   <div>
-                    <GiFoodTruck className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 dark:bg-green-400 hover:scale-105 duration-200" />
+                    <GiFoodTruck className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 dark:bg-green-400" />
                   </div>
                 </div>
-                <div className="flex justify-center items-center">
-                <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
-                  Order Now
-                </button>
+                <div>
+                  <button className="bg-gradient-to-r from-primary to-secondary text-white py-2 px-4 rounded-full shadow-xl hover:shadow-md">
+                    Order Now
+                  </button>
                 </div>
               </div>
             </div>
