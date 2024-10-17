@@ -5,20 +5,20 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "Samuel",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Anurag",
+    text: "I love this app! It’s user-friendly, has secure payments, and my food always arrives hot and delicious in just 30 minutes!",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 1,
-    name: "John Doe",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Rishi",
+    text: "This app is a game changer! Quick delivery, tasty food, and the secure payment process gives me peace of mind. Highly recommend!",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 1,
-    name: "Smith",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Prakhar",
+    text: "I’m impressed! The app is easy to navigate, food arrives quickly, and everything tastes amazing. Definitely my go-to for meals!",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -42,19 +42,16 @@ const Testimonial = () => {
       <div data-aos="fade-up" data-aos-duration="300" className="py-10">
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
-            <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-              What our customers say
-            </p>
+            
             <h1 className="text-3xl font-bold">Testimonial</h1>
-            <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+            <p className="text-s mt-3 text-primary">
+            See what our satisfied customers are saying about us!
             </p>
           </div>
           <div
             data-aos="zoom-in"
             data-aos-duration="300"
-            className="grid grid-cols-1 max-w-[600px] mx-auto gap-6"
+            className="grid grid-cols-1 max-w-[600px] mx-auto gap-6 mt-5"
           >
             <Slider {...settings}>
               {testimonialData.map((data) => {
@@ -62,7 +59,7 @@ const Testimonial = () => {
                   <div className="my-6">
                     <div
                       key={data.id}
-                      className="flex flex-col justify-center items-center gap-4 text-center   shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
+                      className="flex flex-col justify-center items-center gap-4 text-center  shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
                     >
                       <img
                         className="rounded-full block mx-auto"
