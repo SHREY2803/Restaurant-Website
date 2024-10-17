@@ -1,7 +1,7 @@
 import React from "react";
 import Img from "../../assets/biryani.png";
 import Img2 from "../../assets/biryani2.png";
-import Img3 from "../../assets/biryani4.png";
+import Img3 from "../../assets/chicken_platter-one.png";
 
 const ServicesData = [
   {
@@ -9,21 +9,21 @@ const ServicesData = [
     img: Img2,
     name: "Biryani",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+      "Flavorful rice dish with tender meat, spices, and aromatic herbs.",
   },
   {
     id: 2,
-    img: Img2,
-    name: "Chiken kari",
+    img: Img,
+    name: "Chiken Curry",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Succulent chicken cooked in a spicy, aromatic curry sauce.",
   },
   {
     id: 3,
-    img: Img2,
-    name: "Cold Cofee",
+    img: Img3,
+    name: "Chicken Platter",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "A delicious assortment of grilled chicken, spices, and sides, perfect for sharing.",
   },
 ];
 const Services = () => {
@@ -38,8 +38,7 @@ const Services = () => {
             </p>
             <h1 className="text-3xl font-bold">Services</h1>
             <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+            Delight in authentic dishes like Biryani, Chicken Curry, and Chicken Platter, expertly crafted for dine-in, takeaway, and catering."
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
@@ -53,8 +52,8 @@ const Services = () => {
                   <img
                     src={service.img}
                     alt=""
-                    className="max-w-[200px] block mx-auto transform -translate-y-14
-                  group-hover:scale-105 group-hover:rotate-6 duration-300"
+                    className="max-w-[165px] block mx-auto transform -translate-y-14
+                  group-hover:scale-105 group-hover:rotate-6 duration-300 my"
                   />
                 </div>
                 <div className="p-4 text-center">
