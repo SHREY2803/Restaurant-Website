@@ -35,18 +35,13 @@ const Banner = () => {
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1 className="text-3xl sm:text-4xl font-bold">
-                  Lorem, ipsum dolor.
+                Chef's Signature Delight
                 </h1>
-                <p className="text-sm text-gray-500 tracking-wide leading-5">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio
+                <p className="text-md text-gray-400 tracking-wide leading-5">
+                Indulge in our Special Royal Biryani, a fragrant blend of spiced rice and tender meat, perfectly complemented by a side of creamy, delicious curd for a truly unforgettable experience.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae ab sed, exercitationem minima aliquid eligendi
-                  distinctio? Fugit repudiandae numquam hic quo recusandae.
-                  Excepturi totam ad nam velit quasi quidem aspernatur.
+                  Our app is the most popular in the food market, offering secure payment options and ensuring deliciously cooked meals delivered to your doorstep in just 30 minutes. Order now!
                 </p>
                 <div className="flex gap-6 justify-center items-center">
                   <div>

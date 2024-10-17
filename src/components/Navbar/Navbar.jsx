@@ -14,7 +14,7 @@ function Navbar(){
                     <div className="flex justify-between items-center">
                         <div>
                             <a href="#" className='flex items-center gap-2 text-2xl sm:text-3xl font-bold'>
-                                <img src={Logo} alt="Food logo" className="w-10" />Foodie
+                                <img src={Logo} alt="Food logo" className="w-10" />Eatery Zone
                             </a>
                         </div>
                         <div className='flex items-center gap-4'>

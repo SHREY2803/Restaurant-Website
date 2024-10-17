@@ -10,7 +10,10 @@ function AppStore(){
             <div className="container">
                 <div className="grid grid-cols-1
                 sm:grid-cols-2 items-center gap-4">
-                    <div className='space-y-6 max-w-xl mx-auto'>
+                    <div 
+                    data-aos="fade-up"
+                    data-aos-duration="300"
+                    className='space-y-6 max-w-xl mx-auto'>
                         <h1 className='text-2xl text-center sm:text-left sm:text-4xl font-semibold dark:text-gray-500 text-gray-700'>Eatery Zone is Available for Android
                         </h1>
                         <div className='flex flex-wrap justify-center sm:justify-start items-center'>
@@ -28,9 +31,10 @@ function AppStore(){
                         </a>
                     </div>
                     </div>
-                    <div>
-                        <img src={Gif} alt="gif" className='max-w-[300px] mx-auto rounded-xl hover:scale-105 duration-200' />
-
+                    <div 
+                    data-aos="fade-up"
+                    data-aos-duration="300">
+                        <img src={Gif} alt="gif" className=' max-w-[80%] mx-auto rounded-xl hover:scale-105 duration-200' />
                     </div>   
                 </div>
             </div>
