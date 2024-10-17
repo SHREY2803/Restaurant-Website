@@ -9,21 +9,21 @@ const ServicesData = [
     img: img2,
     name: "Biryani",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+      "Flavorful rice dish with tender meat, spices, and aromatic herbs.",
   },
   {
     id: 2,
     img: img1,
-    name: "Chiken kari",
+    name: "Chiken Curry",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Succulent chicken cooked in a spicy, aromatic curry sauce, bursting with bold flavors.",
   },
   {
     id: 3,
     img: img3,
-    name: "Cold Cofee",
+    name: "Chicken Platter",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "A delicious assortment of grilled chicken, spices, and sides, perfect for sharing.",
   },
 ];
 function Services() {
@@ -32,22 +32,25 @@ function Services() {
       <div className="py-10">
         <div className="container">
           {/* Header */}
-          <div className="text-center mb-20 max-w-[400px] mx-auto">
-            <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-              Our Services
-            </p>
-            <h1 className="text-3xl font-bold">Services</h1>
-            <p className="text-xs text-gray-400">
+          <div 
+          data-aos = "slide-up"
+          data-aos-duration="400"
+          data-aos-once="true"
+          className="text-center mb-20 max-w-[400px] mx-auto">
+            
+            <h1 className="text-3xl font-bold">Our Services</h1>
+            <p className="mt-3 text-md text-gray-400">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-              dignissimos est iste consequatur perferendis illum tempora quidem
-              ad? Error, enim.
+              Delight in authentic dishes like Biryani, Chicken Curry, and Chicken Platter, expertly crafted for dine-in, takeaway, and catering.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
             {ServicesData.map(({ id, name, img, description }) => {
               return (
-                <div key={id} className="max-w-[300px] group rounded-2xl bg-white dark:bg-gray-500 dark:hover:bg-primary  duration-300 shadow-xl">
+                <div
+                data-aos="zoom-in"
+                data-aos-duration="300" 
+                key={id} className="max-w-[300px] group rounded-2xl bg-white dark:bg-gray-500 dark:hover:bg-primary  duration-300 shadow-xl">
                   <div className="h-[100px]">
                     <img
                       src={img}
