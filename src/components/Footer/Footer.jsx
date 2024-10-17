@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import {
-  FaFacebook,
   FaInstagram,
+  FaGithub,
   FaLinkedin,
-  FaLocationArrow,
-  FaMobileAlt,
 } from "react-icons/fa";
 import footerLogo from "../../assets/food-logo.png";
+import LocationComponent from "../Location/LocationComponent";
+import NumberComponent from "../NumberComponent/NumberComponent";
+
 
 const Footer = () => {
   return (
@@ -16,31 +17,29 @@ const Footer = () => {
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="Logo" className="max-w-[50px]" />
-              FOODIE
+              Eatery Zone
             </h1>
             <p className="">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+            Reach out to us for inquiries! Call  or visit us at Atladara, Vadodara. We're here to assist you!{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
-              <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+            <LocationComponent className="hover:scale-105 duration-200"/>
             </div>
             <div className="flex items-center gap-3 mt-3">
-              <FaMobileAlt />
-              <p>+91 123456789</p>
+            <NumberComponent />
+            <p>Shrey Kulkarni</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
-              <a href="#">
-                <FaInstagram className="text-3xl" />
+              <a href="https://www.instagram.com/kulkarnishrey/" target="_blank">
+                <FaInstagram className="text-3xl hover:scale-105 duration-200" />
               </a>
-              <a href="#">
-                <FaFacebook className="text-3xl" />
+              <a href="https://github.com/SHREY2803" target="_blank">
+                <FaGithub className="text-3xl hover:scale-105 duration-200" />
               </a>
-              <a href="#">
-                <FaLinkedin className="text-3xl" />
+              <a href="https://www.linkedin.com/in/shrey-kulkarni-80b176218/" target="_blank">
+                <FaLinkedin className="text-3xl hover:scale-105 duration-200" />
               </a>
             </div>
           </div>
@@ -61,27 +60,25 @@ const Footer = () => {
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Links
+                  Other Links
                 </h1>
                 <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
-                  <li className="cursor-pointer">Login</li>
+                  <li className="cursor-pointer">Email</li>
+                  <li className="cursor-pointer">Advertisement</li>
+                  <li className="cursor-pointer">Careers</li>
                 </ul>
               </div>
             </div>
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Links
+                  Help and Support
                 </h1>
                 {/* <ul className="list-disc list-inside"> */}
                 <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
-                  <li className="cursor-pointer">Login</li>
+                  <li className="cursor-pointer">Customer Care</li>
+                  <li className="cursor-pointer">Refund Issues</li>
+                  <li className="cursor-pointer">Queries</li>
                 </ul>
               </div>
             </div>
@@ -89,7 +86,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-center py-10 border-t-2 border-gray-300/50">
-            @copyright 2024 All rights reserved || Made By Shrey Kulkarni
+            &copy;Copyright 2024 All Rights Reserved || Made By Shrey Kulkarni
           </div>
         </div>
       </section>
