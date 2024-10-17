@@ -47,15 +47,14 @@ const Hero = () => {
               className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1"
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
-                Welcome{" "}
+                Welcome to {" "}
                 <span class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
-                  Foodie
+                Eatery 
                 </span>{" "}
                 Zone
               </h1>
               <p className="text-sm ">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                reiciendis inventore iste ratione ex alias quis magni at optio
+              Experience dining like never before with dishes crafted from fresh, local ingredients in a welcoming ambiance. Come for the flavors, stay for the memories.
               </p>
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
