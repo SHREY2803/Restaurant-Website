@@ -15,21 +15,21 @@ const AppStore = () => {
               className="space-y-6 max-w-xl mx-auto"
             >
               <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold text-gray-700 dark:text-gray-400">
-                Foodly is available for Android and IOS
+                Eatery Zone is available for Android and IOS
               </h1>
               <div className="flex flex-wrap justify-center sm:justify-start items-center">
                 <a href="#">
                   <img
                     src={PlayStoreImg}
                     alt="Play store"
-                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
+                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px] hover:scale-105 duration-200"
                   />
                 </a>
                 <a href="#">
                   <img
                     src={AppStoreImg}
                     alt="App store"
-                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
+                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px] hover:scale-105 duration-200"
                   />
                 </a>
               </div>
@@ -38,7 +38,7 @@ const AppStore = () => {
               <img
                 src={Gif}
                 alt="mobile bike"
-                className="w-full sm:max-w-[60%] block rounded-md mx-auto mix-blend-multiply dark:mix-blend-difference"
+                className="w-full sm:max-w-[60%] block rounded-md mx-auto mix-blend-multiply dark:mix-blend-difference hover:scale-105 duration-200"
               />
             </div>
           </div>
