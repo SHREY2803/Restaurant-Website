@@ -30,7 +30,7 @@ function App() {
       <Services />
       <Banner />
       <AppStore />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Footer />
     </div>
   )
