@@ -5,6 +5,9 @@
 
 EateryZone is a basic food delivery website built using React and Tailwind CSS. The website offers a simple and responsive interface for users to browse and order their favorite meals online.
 
+## Preview
+For sample preview of the project [Click Here](https://eateryzone.vercel.app/)
+
 ## Features
 
 - **Responsive Design:** The website is fully responsive and works seamlessly on various screen sizes.
