@@ -6,20 +6,20 @@ import "slick-carousel/slick/slick-theme.css";
 let testimonialData = [
   {
     id: 1,
-    name: "Samuel",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Anurag Yadav",
+    text: `I love this app! It’s user-friendly, has secure payments, and my food always arrives hot and delicious in just 30 minutes!`,
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "John Doe",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Rishi",
+    text: "This app is a game changer! Quick delivery, tasty food, and the secure payment process gives me peace of mind. Highly recommend!",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Smith",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Prakhar",
+    text: "I’m impressed! The app is easy to navigate, food arrives quickly, and everything tastes amazing. Definitely my go-to for meals!",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -48,9 +48,8 @@ function Testimonial() {
               What our customers say
             </p>
             <h1 className="text-3xl font-bold">Testimonial</h1>
-            <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+            <p className="text-s text-gray-400 mt-4">
+            See what our satisfied customers are saying about us!
             </p>
           </div>
           <div
@@ -58,7 +57,7 @@ function Testimonial() {
             data-aos-duration="600"
             className="grid grid-cols-1 max-w-[600px] mx-auto gap-6"
           >
-            <Slider {...settings}>
+            <Slider className="mt-[-30px]" {...settings}>
               {testimonialData.map((data) => {
                 return (
                   <div className="my-6">
