@@ -1,7 +1,7 @@
 import React from "react";
 import BiryaniImg1 from "../../assets/second_chicken.png";
 import BiryaniImg2 from "../../assets/basic_chicken.png";
-import BiryaniImg3 from "../../assets/biryani2.png";
+import BiryaniImg3 from "../../assets/final_leg_piece.png";
 import Vector from "../../assets/vector3.png";
 
 const ImageList = [
