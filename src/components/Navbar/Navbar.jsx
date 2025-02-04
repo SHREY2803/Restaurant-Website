@@ -41,7 +41,7 @@ const Navbar = () => {
               <div>
                 <DarkMode />
               </div>
-              <ul className="items-center hidden gap-4 sm:flex">
+              <ul className="items-center hidden gap-4 lg:flex">
                 {Menu.map((menu) => (
                   <li key={menu.id}>
                     <a
