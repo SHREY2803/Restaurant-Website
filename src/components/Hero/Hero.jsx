@@ -44,9 +44,9 @@ const Hero = () => {
               data-aos="zoom-out"
               data-aos-duration="400"
               data-aos-once="true"
-              className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1"
+              className="flex flex-col justify-center order-2 gap-4 pt-12 text-center sm:pt-0 sm:text-left sm:order-1"
             >
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
+              <h1 className="text-5xl font-bold sm:text-6xl lg:text-7xl">
                 Welcome to {" "}
                 <span class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
                 Eatery 
@@ -57,7 +57,7 @@ const Hero = () => {
               Experience dining like never before with dishes crafted from fresh, local ingredients in a welcoming ambiance. Come for the flavors, stay for the memories.
               </p>
               <div>
-                <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
+                <button className="px-4 py-2 text-white duration-200 rounded-full bg-gradient-to-r from-primary to-secondary hover:scale-105">
                   Order Now
                 </button>
               </div>
