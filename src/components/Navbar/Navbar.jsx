@@ -44,12 +44,13 @@ const Navbar = () => {
               <ul className="items-center hidden gap-4 lg:flex">
                 {Menu.map((menu) => (
                   <li key={menu.id}>
-                    <a
+                    {/* <a
                       href={menu.link}
-                      className="inline-block px-4 py-4 hover:text-yellow-500"
-                    >
-                      {menu.name}
-                    </a>
+                      className="inline-block px-4 py-4 rounded-full hover:bg-primary"
+                    > */}
+                    <button className="flex items-center px-4 py-2 rounded-full hover:bg-primary">{menu.name}</button>
+                      
+                    {/* </a> */}
                   </li>
                 ))}
               </ul>
